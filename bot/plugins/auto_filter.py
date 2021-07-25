@@ -220,12 +220,12 @@ async def auto_filter(bot, update):
             Send_message=await bot.send_photo(
                 chat_id = update.chat.id,
                 photo="https://telegra.ph/Star-movies-drax-movies-07-25",
-                caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n താങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 2 മിനിറ്റ് മാത്രം\n\n<b><a href='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>©𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a></b>",         
+                caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n താങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 5 മിനിറ്റ് മാത്രം\n\n<b><a href='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>©𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a></b>",         
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
             )
-            await asyncio.sleep(120) # in seconds
+            await asyncio.sleep(300) # in seconds
             await Send_message.delete()
             await bot.delete_messages(update.chat.id,update.message_id)
 
