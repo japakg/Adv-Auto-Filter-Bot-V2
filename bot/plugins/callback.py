@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    photo=f"😉 you got <code>{leng}</code> Results For Your Query👉 <code>{query}</code> \n\n താങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 5 മിനിറ്റ് മാത്രം\n\n<b><a href='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>©𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a></b>"  
+    photo=f"😉 you got <code>{leng}</code> Results For Your Query👉 <code>{query}</code> \n\n താങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 10 മിനിറ്റ് മാത്രം\n\n<b><a href='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>©𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a></b>"  
                   
     try:
         await update.message.edit(
