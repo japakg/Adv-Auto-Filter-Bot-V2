@@ -62,7 +62,7 @@ async def auto_filter(bot, update):
     if filters:
         results.append(
                 [
-                    InlineKeyboardButton("⚜𝗗𝗿𝗮𝗫 𝗙𝗶𝗹𝗲𝘀⚜", url="https://t.me/joinchat/89wsRw1KP-tjNDE1"),InlineKeyboardButton("⚜𝗗𝗿𝗮𝗫 𝗦𝗲𝗿𝗶𝗲𝘀⚜", url="https://t.me/joinchat/gMBp8SxwNohjNjNl")
+                    InlineKeyboardButton("🎬 𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀 🎬", url="https://t.me/joinchat/oV7uDCm1UEw2YmE1")
                 ]
             )
         for filter in filters: # iterating through each files
@@ -134,7 +134,7 @@ async def auto_filter(bot, update):
     else:
         Send_message=await bot.send_photo(
         chat_id = update.chat.id,
-        photo="https://telegra.ph/DraX-Movies-05-14",
+        photo="https://telegra.ph/Star-movies-drax-movies-07-25",
         caption=f"𝗖𝗼𝘂𝗹𝗱𝗻'𝘁 𝗳𝗶𝗻𝗱 𝘁𝗵𝗶𝘀 𝗺𝗼𝘃𝗶𝗲 😢ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടത്തി അതുപോലെ ഇവിടെ ടൈപ്പ് ചെയ്യുക....\n\n🥺Google the original name of the movie and type it here ....\n\n\n𝗜𝗳 𝘂 𝗱𝗶𝗱𝗻'𝘁 𝗴𝗲𝘁 𝗠𝗼𝘃𝗶𝗲𝘀, 𝘀𝗲𝗮𝗿𝗰𝗵 𝗶𝗻 𝗼𝘂𝗿 𝗺𝗼𝘃𝗶𝗲 𝗯𝗼𝘁  @DraXMovieSearchbot  𝗢𝗿 𝘂 𝗺𝗮𝘆 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 𝗶𝗻 𝗼𝘂𝗿 𝗱𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 <a href='https://t.me/Star_Movies_Here'>©𝐒𝐓𝐀𝐑 𝐌★𝐕𝐈𝐄𝐒</a>",               
         reply_to_message_id=update.message_id
            )
@@ -172,7 +172,7 @@ async def auto_filter(bot, update):
         ])
         result[0].append([ InlineKeyboardButton(f"💢 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹 💢", url="https://t.me/joinchat/TV_lOjIzLBGmSMGi") 
         ])
-        result[0].append([ InlineKeyboardButton(f"💢 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗣𝗮𝗿𝘁𝗻𝗲𝗿𝘀 💢", url="https://t.me/joinchat/c6PjsQq9fCBhZWE9") ])
+        result[0].append([ InlineKeyboardButton(f"💢 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗣𝗮𝗿𝘁𝗻𝗲𝗿𝘀 💢", url="https://t.me/joinchat/oV7uDCm1UEw2YmE1") ])
         # if show_invite is True Append invite link buttons
         if show_invite:
             
@@ -219,7 +219,7 @@ async def auto_filter(bot, update):
         try:
             Send_message=await bot.send_photo(
                 chat_id = update.chat.id,
-                photo="https://telegra.ph/DraX-Movies-05-14",
+                photo="https://telegra.ph/Star-movies-drax-movies-07-25",
                 caption=f"😉 you got {(len_results)} Results For Your Query👉 <code>{query}</code> \n\n താങ്കൾക്ക് കിട്ടിയ ഈ ഫിൽറ്റർ മെസ്സേജ് കാലാവധി വെറും 2 മിനിറ്റ് മാത്രം\n\n<b><a href='https://t.me/joinchat/TV_lOjIzLBGmSMGi'>©𝗗𝗿𝗮𝗫 𝗠𝗼𝘃𝗶𝗲𝘀</a></b>",         
                 reply_markup=reply_markup,
                 parse_mode="html",
