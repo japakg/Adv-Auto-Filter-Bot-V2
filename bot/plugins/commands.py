@@ -122,7 +122,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/DraxmovieZ'),
+        InlineKeyboardButton('♻️ 𝗚𝗿𝗼𝘂𝗽', url='https://t.me/joinchat/oV7uDCm1UEw2YmE1'),
         InlineKeyboardButton('🎞 𝗰𝗵𝗮𝗻𝗻𝗲𝗹', url ='https://t.me/joinchat/TV_lOjIzLBGmSMGi')
     ]]
     
